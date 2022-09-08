@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     install_requires=[
-        "numpy>=1.18.5,<=1.19.5",
+        "numpy>=1.18.5,<=1.23.0",
         "mpmath>=1.1.0",
-        "pandas>=0.24.2,<=1.1.5",
-        "patsy==0.5.1"
+        "pandas>=0.24.2,<=1.4.4",
+        "patsy==0.5.2"
     ],
     name="combat",
     version="0.3.2",
